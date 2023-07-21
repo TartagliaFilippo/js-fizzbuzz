@@ -15,8 +15,15 @@ for (let i = 1; i <= 100; i++) {
   }
   console.log(numbers);
 
+  //DICHIARO IL CONTAINER DEI MIEI QUADRATI
   const targetContainer = document.getElementById("target-container");
-  let targetDiv = document.createElement("div");
-  document.body.appendChild(targetDiv);
+
+  // CREO I MIEI QUADRATI
+  const targetDiv = document.createElement("div");
+  document.body.append(targetDiv);
   targetDiv.classList.add("box");
+
+  //INSERICO I VALORI NEI QUADRATI
+  let targetP = document.createTextNode(numbers);
+  document.body.appendChild(targetP);
 }
