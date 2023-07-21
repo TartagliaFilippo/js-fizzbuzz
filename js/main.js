@@ -1,5 +1,3 @@
-const tartgetContainer = document.getElementById("target-container");
-
 //INSERISCO IL CICLO FOR
 for (let i = 1; i <= 100; i++) {
   //console.log(i);
@@ -16,4 +14,9 @@ for (let i = 1; i <= 100; i++) {
     numbers = "Buzz";
   }
   console.log(numbers);
+
+  const targetContainer = document.getElementById("target-container");
+  let targetDiv = document.createElement("div");
+  document.body.appendChild(targetDiv);
+  targetDiv.classList.add("box");
 }
