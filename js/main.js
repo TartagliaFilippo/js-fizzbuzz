@@ -19,10 +19,10 @@ for (let i = 1; i <= 100; i++) {
   console.log(numbers);
 
   // CREO I MIEI QUADRATI
-  let targetP = document.createElement("p");
-  targetP.innerText = numbers;
-  document.body.append(targetP);
-  targetP.classList.add("box");
+  let targetDiv = document.createElement("div");
+  targetDiv.innerText = numbers;
+  document.body.append(targetDiv);
+  targetDiv.classList.add("box");
 
   //INSERICO I VALORI NEI QUADRATI
   // let targetP = document.createTextNode(numbers);
