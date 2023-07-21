@@ -1,3 +1,6 @@
+//DICHIARO IL CONTAINER DEI MIEI QUADRATI
+const targetContainer = document.getElementById("target-container");
+
 //INSERISCO IL CICLO FOR
 for (let i = 1; i <= 100; i++) {
   //console.log(i);
@@ -15,15 +18,13 @@ for (let i = 1; i <= 100; i++) {
   }
   console.log(numbers);
 
-  //DICHIARO IL CONTAINER DEI MIEI QUADRATI
-  const targetContainer = document.getElementById("target-container");
-
   // CREO I MIEI QUADRATI
-  const targetDiv = document.createElement("div");
-  document.body.append(targetDiv);
-  targetDiv.classList.add("box");
+  let targetP = document.createElement("p");
+  targetP.innerText = numbers;
+  document.body.append(targetP);
+  targetP.classList.add("box");
 
   //INSERICO I VALORI NEI QUADRATI
-  let targetP = document.createTextNode(numbers);
-  document.body.appendChild(targetP);
+  // let targetP = document.createTextNode(numbers);
+  // document.body.appendChild(targetP);
 }
