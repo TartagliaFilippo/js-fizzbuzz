@@ -8,13 +8,18 @@ for (let i = 1; i <= 100; i++) {
   //VARIABILE DI INDENTIFICAZIONE
   let numbers = i;
 
+  // DICHAIRO LE COSTANTI PER LE CONDIZIONI
+  const FizzBuzz = "FizzBuzz";
+  const Fizz = "Fizz";
+  const Buzz = "Buzz";
+
   //CONDIZIONI
   if (i % 3 == 0 && i % 5 == 0) {
-    numbers = "FizzBuzz";
+    numbers = FizzBuzz;
   } else if (i % 3 == 0) {
-    numbers = "Fizz";
+    numbers = Fizz;
   } else if (i % 5 == 0) {
-    numbers = "Buzz";
+    numbers = Buzz;
   }
   console.log(numbers);
 
@@ -25,6 +30,8 @@ for (let i = 1; i <= 100; i++) {
 
   // CREO I QUADRATI
   targetDiv.classList.add("box");
+
+  // DICHIARO LE CLASSI DEI VARI NUMBERS
 
   //INSERICO I VALORI NEI QUADRATI
   // let targetP = document.createTextNode(numbers);
