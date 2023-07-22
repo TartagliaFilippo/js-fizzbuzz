@@ -18,10 +18,12 @@ for (let i = 1; i <= 100; i++) {
   }
   console.log(numbers);
 
-  // CREO I MIEI QUADRATI
+  // INSERISCO IL CICLO NEL DOCUMENT
   let targetDiv = document.createElement("div");
   targetDiv.innerText = numbers;
-  document.body.append(targetDiv);
+  targetContainer.append(targetDiv);
+
+  // CREO I QUADRATI
   targetDiv.classList.add("box");
 
   //INSERICO I VALORI NEI QUADRATI
