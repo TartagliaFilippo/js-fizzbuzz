@@ -8,6 +8,16 @@
 /* UTILS */
 
 /* STRUCTURE */
+.wrapper {
+  background-color: seagreen;
+}
+
+#target-container {
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 50px;
+}
+
 .box {
   width: 100px;
   height: 100px;
