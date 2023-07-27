@@ -29,7 +29,7 @@ for (let i = 1; i <= 100; i++) {
   targetContainer.append(targetDiv);
 
   // CREO I QUADRATI
-  targetDiv.classList.add("box");
+  targetDiv.classList.add("box", "numbers");
 
   // DICHIARO LE CLASSI DEI VARI NUMBERS
 

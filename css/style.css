@@ -26,3 +26,19 @@
   justify-content: center;
   align-items: center;
 }
+
+.fizzbuzz {
+  background-color: aqua;
+}
+
+.buzz {
+  background-color: chocolate;
+}
+
+.fizz {
+  background-color: chartreuse;
+}
+
+.numbers {
+  background-color: blue;
+}
